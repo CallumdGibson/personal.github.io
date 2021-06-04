@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube and its Effect on Children</title>
+    <!-- linked to style.css -->
+    <link href="../styles/style.css" rel="stylesheet" type="text/css" media="all">
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="particles" id="particles">
+    </div>
+
+    <!-- SLIDE-IN-OUT NAV BAR -->
+    <div id="sidebar">
+        <div id="toggle-btn" onclick="show()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="topic.html">Technology/topic</a></li>
+          <li><a href="opportunities.html">Opportunities</a></li>
+          <li><a href="risks.html">Risks</a></li>
+          <li><a href="choices.html">Choices</a></li>
+          <li><a href="ethics.html">Ethical Reflections</a></li>
+          <li><a href="references.html">References</a></li>
+          <li><a href="process.html">Process Support</a></li>
+        </ul>
+    </div>
+
+    <div id="content">
+        <center>
+            <h1>YouTube and its Effects on Children</h1>
+            <h2>Ethical Reflection and Recommendations</h2>
+            <h3>By Callum Gibson</h3>
+        </center>
+            <p>YouTube is kinda suss, but kinda good.</p>
+    </div>
+
+    <!-- Link to JS file -->
+    <script src="../custom.js"></script>
+  </body>
+</html>
